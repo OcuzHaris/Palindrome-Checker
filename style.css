@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(49, 49, 49);
+}
+
+h1 {
+  color: gold;
+  text-align: right;
+  font-family: sans-serif;
+  font-style: italic;
+  border-bottom: solid gold 2px;
+  margin-bottom: 100px;
+  padding: 50px;
+}
+.paragraph {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+strong {
+  font-size: 50px;
+  color: gold;
+}
+.container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.input-field {
+  width: 250px;
+  height: 30px;
+  border: 2px solid #dadada;
+  border-radius: 7px;
+  box-shadow: 0 0 10px gold;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.input-field:hover {
+  border: 2px solid gold;
+  width: 260px;
+  height: 33px;
+}
+.check-button {
+  width: 70px;
+  height: 34px;
+  border-radius: 7px;
+  border: 2px solid #dadada;
+  box-shadow: 0 0 10px gold;
+  padding: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.check-button:hover {
+  width: 75px;
+  height: 36px;
+  cursor: pointer;
+  border: solid gold;
+}
+.result {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  color: gold;
+}
